@@ -1,0 +1,31 @@
+
+@media only screen and (max-width :1200px){    /*---this is for big tablets to  1200px with width smaller than 1140px row----*/
+    .hero-text-box{
+        width: 100%;
+        padding: 0 3%;
+        text-align: center;
+    }
+    .row{padding: 0 3%;}  /*--this is for moving the padding alittle inside---and i have used only only one line to write it--*/
+}
+
+@media only screen and (max-width :1023px){    /*---this is for small  tablet whose width is from 1023px----*/
+    body{font-size: 15px;}
+    section { padding: 20px 0;}
+    
+    .long-copy{
+        width: 90%;    /*----this has been increased to 90% from 70%---*/       
+        margin-left: 5%;
+    }
+    .step-box{margin-top: 10px;}
+    .step-box:last-child{margin-top: 10px;}
+    .work-steps{margin-bottom: 40px;}
+    .work-steps:last-of-type{margin-bottom: 40px;}
+    .app-screen{width: 50%}
+}
+@media only screen and (max-width :767px){    /*---this is for small phones to small tablets whose width is above 480px to 767px----*/
+    }
+
+    
+@media only screen and (max-width :480px){    /*---this is for small phones whose with is from 0 to  480px----*/
+    
+}
